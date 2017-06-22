@@ -19,7 +19,7 @@ public class Sixth_project {
      */
     public static void main(String[] args) {
     
-    int number1 = 1234;
+  /*  int number1 = 1234;
     int count = 0;
     int sum = 0;
     while (number1 > 0)
@@ -40,8 +40,20 @@ public class Sixth_project {
             
         }
         while ((menuChoice <= 4) && (menuChoice > 0));
-        System.out.println("Please enter correct number");
+        System.out.println("Please enter correct number"); */
             
+        for (int i = 0; i < 10; i++) 
+        {
+            for (int j = 0; j < 10; j++) 
+            {
+                if (i > 0 && j > 0)
+                {
+                    System.out.print(i*j + "\t");
+                }
+                
+            }
+           System.out.println(" ");
+        }
     
     }
 
